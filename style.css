@@ -10,13 +10,15 @@ if you need a refresher about how to do this. */
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0066ff;
+  background-color: #06f;
   border-radius: 10px;
   position:static;
 }
+
 li {
   float: left;
 }
+
 /* controls list appearens*/
 li a {
   display: block;
@@ -25,12 +27,14 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 /* Change the on hover */
 li a:hover {
   background-color: #000080;
 }
+
 /* controls the subject box looks*/
-.lesson{
+.lesson {
   color: white;
   border-radius: 20px;
   padding: 10px;
@@ -38,8 +42,9 @@ li a:hover {
   background-color: blue;
   border-color: white;
 }
+
 /*wraps one subject under the same appearens*/
-.subject{
+.subject {
   background-color: white;
   color: black;
   border-radius: 8px;
@@ -47,21 +52,25 @@ li a:hover {
   margin: 0px;
   display: block;
 }
-.subject_title{
+
+.subject_title {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
   text-decoration: underline;
 }
-.subject_content{
+
+.subject_content {
   background-color: white;
   color: black;
 }
-h2{
+
+h2 {
   text-align: left;
 }
-.go_home{
+
+.go_home {
   color: blue;
 }
 .go_home a:visited {
